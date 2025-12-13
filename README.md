@@ -20,6 +20,11 @@ this is the link to the frontend GitHub pages : https://etak0o.github.io/fronten
 # Log in details
    1. username: nicholebaddoo@gmail.com || password: etakoswebsite
    2. username: obaddoo4jc@gmail.com || password: Tr1nity3
+
+# Running the project locally
+1. run index.js in the backend terminal
+2. the terminal must display 'server running on port 5000'
+3. when it does, open the index.html file in the frontend folder.
    
 # Feature Check
 ## 1. User Registration & Authentication (15 Marks) 
