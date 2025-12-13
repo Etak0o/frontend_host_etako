@@ -7,7 +7,17 @@ document.getElementById("registerForm")?.addEventListener("submit", async functi
   const roomnumber = document.getElementById("roomnumber").value.trim();
   const password = document.getElementById("password").value.trim();
 
-  const res = await fetch("http://localhost:5000/auth/register", {
+  // if running locally
+ // const res = await fetch("http://localhost:5000/auth/register", {
+   // method: "POST",
+    //headers: {
+      //"Content-Type": "application/json",
+    //},
+    //body: JSON.stringify({ name, email, password, roomnumber }),
+  //});
+
+  //if deployed on render
+   const res = await fetch("https://backend-host-etako-1.onrender.com/auth/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -33,7 +43,7 @@ document.getElementById("loginForm")?.addEventListener("submit", async function 
   const email = document.getElementById("logemail").value.trim();
   const password = document.getElementById("logpassword").value.trim();
 
-  const res = await fetch("http://localhost:5000/auth/login", {
+  const res = await fetch("https://backend-host-etako-1.onrender.com/auth/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
