@@ -18,22 +18,29 @@ this is the link to the frontend GitHub pages : https://etak0o.github.io/fronten
     and it does not display under orders, when you refresh it does display :(
 
 # Log in details
-
+   1. username: nicholebaddoo@gmail.com || password: etakoswebsite
+   2. username: obaddoo4jc@gmail.com || password: Tr1nity3
+   
 # Feature Check
 ## 1. User Registration & Authentication (15 Marks) 
-• Students sign up and log in.  
+• Students sign up and log in. ✅
   
-• Include profile details (name, email, room number).    
+• Include profile details (name, email, room number). ✅
 
 
 ## 2. Menu Display & Ordering (15 Marks) 
-• Display menu items with images, prices, and categories. 
-• Enable users to add items to cart and place orders.
+• Display menu items with images, prices, and categories. ✅
+• Enable users to add items to cart and place orders.✅
 
 ##  3. Order Tracking & History (15 Marks) 
-• Users can view order history and current order status. 
-• Admin can update order statuses (Pending, Preparing, Ready).
+• Users can view order history and current order status. ✅
+• Admin can update order statuses (Pending, Preparing, Ready).❌
 
 ## 4. Deployment (15 Marks)
-• Host backend (Node.js + PostgreSQL) on Render. 
-• Host frontend on GitHub Pages and ensure full integration.
+• Host backend (Node.js + PostgreSQL) on Render. ✅
+• Host frontend on GitHub Pages and ensure full integration.✅
+
+## also
+there is no option for an admin to update statuses:(
+
+
