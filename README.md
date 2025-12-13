@@ -1,6 +1,7 @@
-Nichole Naa Etako Baddoo's frontend READ.me file
+## Nichole Naa Etako Baddoo's frontend READ.me file
 
-i chose to answer question 3, which was the Campus Food Ordering System
+## i chose to answer question 3, which was the Campus Food Ordering System
+
 # Project Name
 the name of my system is AcityEats
 this is the link to the frontend GitHub pages : https://etak0o.github.io/frontend_host_etako/
@@ -21,7 +22,9 @@ this is the link to the frontend GitHub pages : https://etak0o.github.io/fronten
 # Feature Check
 ## 1. User Registration & Authentication (15 Marks) 
 • Students sign up and log in.  
-• Include profile details (name, email, room number).  
+  
+• Include profile details (name, email, room number).    
+
 
 ## 2. Menu Display & Ordering (15 Marks) 
 • Display menu items with images, prices, and categories. 
