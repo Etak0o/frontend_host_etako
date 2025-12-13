@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Food Ordering System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>AcityEats</h1>
+            <nav>
+                <ul>
+                    <li><a href="#signup">sign up</a></li>
+                    <li><a href="#login">log in</a></li>
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#orders">orders</a></li>
+                    <li><a href="#cart">cart</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section class="hero">
+        <h2>AcityEats</h2>
+        <p>Good Food, Right on Campus</p>
+        <button onclick="window.location.href='#menu'">view menu</button>
+    </section>
+
+    <!--signup-->
+    <section id="signup">
+        <h2>Create Your Account</h2>
+        <form id="registerForm">
+            <label for="name">full name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone number">phone number</label>
+            <input type="tel" id="number" name="number" required>
+
+            <label for="email">email address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="roomnumber">room number</label>
+            <input type="text" id="roomnumber" name="roomnumber" required>
+
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+
+
+        </form>
+
+        <p>already signed up? <a href="#login">log in</a></p>
+    </section>
+
+    <!--login-->
+    <section id="login">
+        <h2>Log In</h2>
+        <form id="loginForm">
+            <label for="email">email</label>
+            <input type="email" id="logemail" name="email" required>
+
+            <label for="password">password</label>
+            <input type="password" id="logpassword" name="password"> 
+            
+            <button type="submit">Log In</button>
+            
+
+
+        </form>
+        <p>don't have an account? <a href="#signup">sign up</a></p>
+    </section>
+
+    <section id="menu">
+       <!-- <h2>Menu</h2>
+        <p>indulge in our delicious options</p>
+
+        <div class="menu-container">
+            <article class="menu-item">
+                <img src="images/jollof.jpg" alt="jollof">
+                <h3>Jollof Rice</h3>
+                <p>¢35.00</p>
+            </article>
+
+            <article class=" menu-item">
+                <img src="images/gob3.jpg" alt="beans and plantain">
+                <h3>Beans and Plantain</h3>
+                <p>¢40.00</p>
+            </article>
+        
+
+            <article class="menu-item">
+                <img src="images/fried rice.avif" alt="fried rice">
+                <h3>Fried Rice</h3>
+                <p>¢35.00</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/kenkey.jpg" alt="kenkey">
+                <h3>Kenkey</h3>
+                <p>¢30.00</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/kontomire.jpg" alt="plantain and kontomire">
+                <h3>Plantain and Kontomire</h3>
+                <p>¢30.00</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/banana bread.jpeg" alt="banana bread">
+                <h3>Banana Bread</h3>
+                <p>¢15.00</p>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/cookies.jpg" alt="cookies">
+                <h3>Cookies</h3>
+                <p>¢10.00</p>
+            </article>
+        </div>
+        -->
+
+        <h2>Menu</h2>
+
+        <div id="categorybutton">
+<!--will be added by js-->
+        </div>
+
+        <div id="menu-container" class="menugrid">
+<!--will be added by js-->
+        </div>
+    </section>
+
+    <!--cart-->
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div id="cartitems"></div>
+
+        <div id="cartsummary">
+            <h3>total: ¢ <span id="total_amount">0</span></h3>
+            <button id="placeorder">place order</button>
+
+        </div>
+    </section>
+
+<!--order history-->
+<section id="orders">
+    <h2>your orders</h2>
+    <div id="orders-container">
+        <!--will be added by js-->
+    </div>
+
+</section>
+    <script src="script/script.js"></script>
+</body>
+</html>
