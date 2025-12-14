@@ -7,7 +7,7 @@ the name of my system is AcityEats
 this is the link to the frontend GitHub pages : https://etak0o.github.io/frontend_host_etako/
 
 # Description
-1. I decided to make mine a simple one page system
+1. I decided to make my project a single page application
 2. the user can sign up entering their name, email, phone number, room number and password
 3. the user can also log in using their email and password
 4. the page also displays, types of foods into categories; breakfast, lunch, snacks and drinks
