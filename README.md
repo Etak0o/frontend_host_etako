@@ -12,7 +12,7 @@ this is the link to the frontend GitHub pages : https://etak0o.github.io/fronten
 3. the user can also log in using their email and password
 4. the page also displays, types of foods into categories; breakfast, lunch, snacks and drinks
 5. the user can add these items into their cart and view their order history and status
-
+6. it's usable on a mobile device too!:)
    ## PS
    sometimes, you'd have to refresh after you make an action, say you want to add an item to cart,
     and it does not display under orders, when you refresh it does display :(
